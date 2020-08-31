@@ -1,0 +1,94 @@
+PODS:
+  - Alamofire (5.2.2)
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - DynamicCodable (1.0)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.0.0):
+    - AppAuth/Core (~> 1.0)
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.4.0):
+    - GTMSessionFetcher/Full (= 1.4.0)
+  - GTMSessionFetcher/Core (1.4.0)
+  - GTMSessionFetcher/Full (1.4.0):
+    - GTMSessionFetcher/Core (= 1.4.0)
+  - KakaoSDK (2.0.1):
+    - KakaoSDKAuth (= 2.0.1)
+    - KakaoSDKCommon (= 2.0.1)
+    - KakaoSDKLink (= 2.0.1)
+    - KakaoSDKNavi (= 2.0.1)
+    - KakaoSDKStory (= 2.0.1)
+    - KakaoSDKTalk (= 2.0.1)
+    - KakaoSDKTemplate (= 2.0.1)
+    - KakaoSDKUser (= 2.0.1)
+  - KakaoSDKAuth (2.0.1):
+    - KakaoSDKCommon (= 2.0.1)
+  - KakaoSDKCommon (2.0.1):
+    - Alamofire (~> 5.1)
+    - DynamicCodable (~> 1.0)
+  - KakaoSDKLink (2.0.1):
+    - KakaoSDKCommon (= 2.0.1)
+    - KakaoSDKTemplate (= 2.0.1)
+  - KakaoSDKNavi (2.0.1):
+    - KakaoSDKCommon (= 2.0.1)
+  - KakaoSDKStory (2.0.1):
+    - KakaoSDKAuth (= 2.0.1)
+    - KakaoSDKCommon (= 2.0.1)
+  - KakaoSDKTalk (2.0.1):
+    - KakaoSDKAuth (= 2.0.1)
+    - KakaoSDKCommon (= 2.0.1)
+    - KakaoSDKTemplate (= 2.0.1)
+  - KakaoSDKTemplate (2.0.1):
+    - KakaoSDKCommon (= 2.0.1)
+  - KakaoSDKUser (2.0.1):
+    - KakaoSDKAuth (= 2.0.1)
+    - KakaoSDKCommon (= 2.0.1)
+
+DEPENDENCIES:
+  - GoogleSignIn
+  - KakaoSDK
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppAuth
+    - DynamicCodable
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - KakaoSDK
+    - KakaoSDKAuth
+    - KakaoSDKCommon
+    - KakaoSDKLink
+    - KakaoSDKNavi
+    - KakaoSDKStory
+    - KakaoSDKTalk
+    - KakaoSDKTemplate
+    - KakaoSDKUser
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  DynamicCodable: 2cf558d057b3e6540552943254e1c9eeb706dde2
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
+  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
+  KakaoSDK: 000d22a13a32e25c31d36d42667640b9c21f48be
+  KakaoSDKAuth: b0164328e032efe30531050f1cbf383a8b15c177
+  KakaoSDKCommon: 2a0cddcf8e606a874c02fd212efd50ef06d6189d
+  KakaoSDKLink: 85d8366c473ced95943870f7078babe1c9c4dae5
+  KakaoSDKNavi: d4499d20dff37e86a56a1fb2a69d3453cb775d02
+  KakaoSDKStory: ed351ad079049c13a0e6e5434eece8369bd3e236
+  KakaoSDKTalk: 1c63b8e74b4069a9ebb692210e426fa9187fe51b
+  KakaoSDKTemplate: 1a8390dfeb57633acf12266662f132ff9d0a384a
+  KakaoSDKUser: 8bd45ea9da54ba877cf057589c4ef47f67773c53
+
+PODFILE CHECKSUM: 586f95cc19d74f194cbeb6c4874ca736ef841309
+
+COCOAPODS: 1.9.1

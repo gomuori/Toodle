@@ -69,34 +69,34 @@ struct PostItManager {
         }
     }
     
-//    func performPostRequest() {
-//
-//        let parameters = ["username": "1@2", "tweet": "HelloWorld"]
-//
-//        if let url = URL(string: "https://jsonplaceholder.typicode.com/posts") {
-//            var request = URLRequest(url: url)
-//            request.httpMethod = "POST"
-//            guard let httpBody = try? JSONSerialization.data(withJSONObject: parameters, options: []) else { return }
-//            request.httpBody = httpBody
-//            request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-//
-//            let session = URLSession(configuration: .default)
-//            let task = session.dataTask(with: request) { (data, response, error) in
-//                if let safeResponse = response {
-//                    print("The response is \(safeResponse)")
-//                }
-//                if let safeData = data {
-//                    print("The data is \(safeData)")
-//                    do {
-//                        let json = try JSONSerialization.jsonObject(with: safeData, options: [])
-//                        print(json)
-//                    } catch {
-//                        print(error)
-//                    }
-//                }
-//            }
-//            task.resume()
-//        }
-//    }
+    func performPostRequest() {
+
+        let parameters = ["username": "1@2", "tweet": "HelloWorld"]
+
+        if let url = URL(string: "https://jsonplaceholder.typicode.com/posts") {
+            var request = URLRequest(url: url)
+            request.httpMethod = "POST"
+            guard let httpBody = try? JSONSerialization.data(withJSONObject: parameters, options: []) else { return }
+            request.httpBody = httpBody
+            request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+
+            let session = URLSession(configuration: .default)
+            let task = session.dataTask(with: request) { (data, response, error) in
+                if let safeResponse = response {
+                    print("The response is \(safeResponse)")
+                }
+                if let safeData = data {
+                    print("The data is \(safeData)")
+                    do {
+                        let json = try JSONSerialization.jsonObject(with: safeData, options: [])
+                        print(json)
+                    } catch {
+                        print(error)
+                    }
+                }
+            }
+            task.resume()
+        }
+    }
     
 }

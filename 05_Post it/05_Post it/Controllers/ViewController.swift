@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         
         tableView.register(UINib(nibName: "PostItCell", bundle: nil), forCellReuseIdentifier: "ReusableCell")
         
-        postItManager.performRequest()
+        postItManager.performPostRequest()
         
     }
 }
